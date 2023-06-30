@@ -47,6 +47,7 @@ public class SliderDemo implements ChangeListener {
 
         panel.add(slider);
         panel.add(label);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(panel);
         frame.setSize(420, 520);
         frame.setVisible(true);
